@@ -1,0 +1,22 @@
+.Icons {
+    padding: 20px 10px;
+}
+
+.Icons a {
+    text-decoration: none;
+}
+
+.Icons a:visited,
+.Icons a:link {
+    color: #333;
+}
+
+.Icons a:hover{
+    color: #6699cc;
+}
+
+@media (max-width: 480px) {
+    .Icons {
+        padding: 10px 5px;
+    }
+}

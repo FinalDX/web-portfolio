@@ -1,0 +1,15 @@
+.Layout {
+    background-image: linear-gradient(rgba(255,255,255,0.9), rgba(0,0,0,0.0)), url('../../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.Layout main {
+    display: block;
+    width: 100%;
+}

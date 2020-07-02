@@ -1,0 +1,39 @@
+.Footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #555;
+    text-align: center;
+    height: 60px;
+    overflow: auto;
+}
+
+Footer p {
+    margin: 20px auto;
+    font-size: 70%;
+}
+
+.Footer a {
+    font-size: inherit;
+    color: #555;
+}
+
+@media (max-width: 767px) {
+    .Footer {
+        height: 30px;
+    }
+
+    .Footer p {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .Footer {
+        height: 30px;
+    }
+
+    .Footer p {
+        margin-top: 0;
+    }
+}

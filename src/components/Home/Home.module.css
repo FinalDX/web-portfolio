@@ -1,0 +1,25 @@
+.Home {
+    width: 1148px;
+    margin: 120px auto;
+    text-align: center;
+    overflow: auto;
+}
+
+.Home h1 {
+    margin: 0px auto 20px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+
+
+@media (max-width: 1200px) {
+    .Home {
+        width: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+    .Home {
+        margin-top: 80px;
+    }
+}

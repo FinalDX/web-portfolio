@@ -1,0 +1,23 @@
+.Card {
+    position: relative;
+    height: 500px;
+    width: 300px;
+    border: 1px solid #222;
+    margin: 10px;
+    transition: transform .4s;
+}
+
+.Card:hover {
+    transform: scale(1.05);
+}
+
+.Card img {
+    height: 100%;
+    width: 100%;
+}
+
+.Pointable { cursor: pointer; }
+
+@media (max-width: 767px) {
+    .Card { height: 400px; width: 250px;}
+}

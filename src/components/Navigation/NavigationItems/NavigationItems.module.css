@@ -1,0 +1,18 @@
+.NavigationItems {
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+@media (max-width: 767px) {
+    .NavigationItems {
+        flex-direction: column;
+        height: 180px;
+        margin: 0 auto;
+    }
+}
+

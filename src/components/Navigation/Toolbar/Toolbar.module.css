@@ -1,0 +1,34 @@
+.Toolbar {
+    height: 80px;
+    width: 1148px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.DesktopNav {
+    width: 50%;
+    float: left;
+}
+
+.Icons {
+    float: right;
+}
+
+@media (max-width: 1200px) {
+    .Toolbar {
+        width: 90%;
+    }
+}
+
+@media (max-width: 767px) {   
+    .DesktopNav {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .Toolbar {
+        height: 50px;
+        width: 100%;
+    }
+}
