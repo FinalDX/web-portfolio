@@ -5,7 +5,7 @@
     color: #555;
     text-align: center;
     height: 60px;
-    overflow: auto;
+    padding-top: 20px;
 }
 
 Footer p {

@@ -21,7 +21,10 @@ class Card extends Component {
             <img src={this.props.image} alt=""/>
             <Overlay 
                 description={this.props.description}
-                show={this.state.showOverlay} />
+                made={this.props.made}
+                show={this.state.showOverlay} 
+                code={this.props.code}
+                live={this.props.live}/>
         </div>
     );
         

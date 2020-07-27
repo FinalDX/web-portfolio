@@ -6,8 +6,8 @@ import classes from './Contact.module.css';
 
 const contact = props => (
     <Animated 
-        animationIn="slideInLeft"
-        animationOut="slideOutRight">
+        animationIn="fadeIn"
+        animationOut="fadeOut">
     <div className={classes.Contact}>
         <form action="https://formspree.io/fennersean@yahoo.com" method="post">
             <p>To: fennersean@yahoo.com</p>

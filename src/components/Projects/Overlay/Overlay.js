@@ -10,7 +10,7 @@ const overlay = props => {
         links = (
             <div>
                 <div className={classes.Links}>
-            <a href="https://github.com/FinalDX/MyWorkoutLog" 
+            <a href={props.code} 
                 target="_blank"
                 rel="noopener noreferrer"
                 disabled={!props.show}>
@@ -19,7 +19,7 @@ const overlay = props => {
             </a>
         </div>
         <div className={classes.Links}>
-            <a href="http://myworkoutlog.online/" 
+            <a href={props.live} 
                 target="_blank"
                 rel="noopener noreferrer"
                 disabled={!props.show}>
@@ -35,6 +35,7 @@ const overlay = props => {
         <div className={classes.Overlay} 
             style={{opacity: props.show ? '0.9' : '0'}}>
             <p>{props.description}</p>
+            <p>{props.made}</p>
             {links}
         </div>
     );

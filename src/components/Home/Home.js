@@ -8,8 +8,8 @@ import { Animated } from 'react-animated-css';
 
 const home = props => (
     <Animated 
-        animationIn="slideInLeft"
-        animationOut="slideOutRight">
+        animationIn="fadeIn"
+        animationOut="fadeOut">
         <div className={classes.Home}>
             <h1>Sean Fenner &mdash; Web Developer</h1>
             <NavigationItem clicked={props.clicked} link="/Projects" >
