@@ -1,12 +1,8 @@
 import React from 'react';
 import Card from './Card/Card';
 import classes from './Projects.module.css';
-import { Animated } from 'react-animated-css';
 
 const projects = props => (
-    <Animated 
-        animationIn="fadeIn"
-        animationOut="fadeOut">
     <div className={classes.Projects}>
         <Card  
             image={require("../../assets/images/MWL.PNG")} 
@@ -25,7 +21,6 @@ const projects = props => (
             code={'https://github.com/FinalDX/pocket-planner'}
             live={'http://pocketplanner.online/'}/>
     </div>
-    </Animated>
 );
 
 export default projects;

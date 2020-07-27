@@ -1,13 +1,8 @@
 import React from 'react';
 
-import { Animated } from 'react-animated-css';
-
 import classes from './Contact.module.css';
 
 const contact = props => (
-    <Animated 
-        animationIn="fadeIn"
-        animationOut="fadeOut">
     <div className={classes.Contact}>
         <form action="https://formspree.io/fennersean@yahoo.com" method="post">
             <p>To: fennersean@yahoo.com</p>
@@ -16,7 +11,6 @@ const contact = props => (
             <input className={classes.SendBtn} type="submit" value="Send" />
         </form>
     </div>
-    </Animated>
 );
 
 export default contact;

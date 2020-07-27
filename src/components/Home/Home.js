@@ -4,12 +4,7 @@ import classes from './Home.module.css';
 import Button from '../UI/Button/Button';
 import NavigationItem from '../Navigation/NavigationItems/NavigationItem/NavigationItem';
 
-import { Animated } from 'react-animated-css';
-
 const home = props => (
-    <Animated 
-        animationIn="fadeIn"
-        animationOut="fadeOut">
         <div className={classes.Home}>
             <h1>Sean Fenner &mdash; Web Developer</h1>
             <NavigationItem clicked={props.clicked} link="/Projects" >
@@ -19,7 +14,6 @@ const home = props => (
                 <Button btnType="Ghost">Contact</Button>
             </NavigationItem>
         </div>
-    </Animated>
 );
 
 export default home;
