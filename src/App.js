@@ -5,16 +5,19 @@ import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 
-import { Route } from 'react-router-dom';
+import { Route, Redirect, Switch } from 'react-router-dom';
 
 class App extends Component {
   
   render () {
     return (
       <Layout> 
-        <Route path="/Contact" component={Contact} />
-        <Route path="/Projects" component={Projects} />
-        <Route path="/" exact component={Home} />
+        <Switch>
+          <Route path="/Contact" component={Contact} />
+          <Route path="/Projects" component={Projects} />
+          <Route path="/" exact component={Home} />
+          <Redirect from="/" to="/" />
+        </Switch>
       </Layout>
     );
   }
