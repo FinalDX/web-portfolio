@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {IoLogoGithub, IoIosFlash} from 'react-icons/io';
+import {IoLogoGithub, IoIosGlobe} from 'react-icons/io';
 
 import classes from './Overlay.module.css';
 
@@ -23,8 +23,8 @@ const overlay = props => {
                 target="_blank"
                 rel="noopener noreferrer"
                 disabled={!props.show}>
-                <IoIosFlash size='2em' />
-                <p>Live</p>
+                <IoIosGlobe size='2em' />
+                <p>Website</p>
             </a>
         </div>
             </div>
