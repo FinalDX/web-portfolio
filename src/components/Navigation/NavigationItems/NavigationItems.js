@@ -7,13 +7,13 @@ const navigationItems = props => {
     return (
         <ul className={classes.NavigationItems}>
             <NavigationItem
-                link="/" 
+                link="#" 
                 clicked={props.clicked}>Home</NavigationItem>
             <NavigationItem 
-                link="/Projects" 
+                link="#Projects" 
                 clicked={props.clicked}>Projects</NavigationItem>
             <NavigationItem 
-                link="/Contact" 
+                link="#Contact" 
                 clicked={props.clicked}>Contact</NavigationItem>
         </ul>
     );

@@ -19,7 +19,8 @@ class Card extends Component {
         return (
         <div className={addedClasses.join(' ')} onClick={this.clicked}>
             <img src={this.props.image} alt=""/>
-            <Overlay 
+            <Overlay className={classes.Overlay}
+                title ={this.props.title}
                 description={this.props.description}
                 made={this.props.made}
                 show={this.state.showOverlay} 

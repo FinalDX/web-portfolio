@@ -34,7 +34,8 @@ const overlay = props => {
     return (
         <div className={classes.Overlay} 
             style={{opacity: props.show ? '0.9' : '0'}}>
-            <p>{props.description}</p>
+            <p>Title: {props.title}</p>
+            <p>Description: {props.description}</p>
             <p>{props.made}</p>
             {links}
         </div>
